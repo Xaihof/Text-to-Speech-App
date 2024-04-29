@@ -1,0 +1,28 @@
+<resources>
+    
+    
+    <string name="app_name">X-Speech</string>
+    <string name="speed">Speed</string>
+    <string name="pitch">Pitch</string>
+    <string name="say_it">Say It</string>
+    <string name="clear">Clear</string>
+    <string name="enter_your_text_to_listen">Enter your text to listen.</string>
+    <string name="pronunciation_guide">Pronunciation Guide</string>
+    <string name="here">Here</string>
+    <string name="functions">Functions</string>
+    <string name="equalizer">Equalizer</string>
+    <string name="to_listen_type_your_word_phrase">To listen, type your Word/Phrase</string>
+    <string name="all_rights_are_reserved">All rights are reserved.</string>
+    <string name="xoksis">XOKSIS</string>
+    <string name="accent">Accent</string>
+
+
+    <string-array name="accent">
+
+        <item>US(American)</item>
+        <item>UK(British)</item>
+
+    </string-array>
+    
+    
+</resources>
