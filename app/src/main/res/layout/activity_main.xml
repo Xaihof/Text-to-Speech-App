@@ -8,21 +8,20 @@
     tools:context=".MainActivity">
 
 
-        <TextView
-            android:id="@+id/tv_name"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center"
-            android:fontFamily="sans-serif"
-            android:text="@string/pronunciation_guide"
-            android:textColor="@color/white"
-            android:textSize="21sp"
-            android:background="@color/X"
-            android:textStyle="italic"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            />
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/X"
+        android:fontFamily="sans-serif"
+        android:gravity="center"
+        android:text="@string/pronunciation_guide"
+        android:textColor="@color/white"
+        android:textSize="21sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/tv_type_any_word"
@@ -306,7 +305,7 @@
         <Spinner
             android:id="@+id/language"
             android:layout_width="210dp"
-            android:layout_height="30dp"
+            android:layout_height="35dp"
             android:layout_gravity="center"
             android:background="@drawable/bg_spinner_accent"
             android:dropDownVerticalOffset="28dp"
